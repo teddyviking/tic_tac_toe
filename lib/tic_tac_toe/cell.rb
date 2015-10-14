@@ -1,6 +1,6 @@
 module TicTacToe
  class Cell
-    attr_reader :value
+    attr_accesor :value
 
     def initialize(value="")
       @value = value
@@ -15,4 +15,3 @@ end
 
 #If Cell is initialized without any arguments, the cell’s value will be the empty string, but Cell can also be initialized with an argument. 
 
-#After a cell is instantiated, its value cannot be updated.
