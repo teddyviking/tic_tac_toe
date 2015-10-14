@@ -1,0 +1,11 @@
+module TicTacToe
+  class Player
+    attr_reader :color, :name
+
+    def initialize(color, name)
+      @color = color
+      @name = name
+    end
+    
+  end
+end
