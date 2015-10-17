@@ -1,39 +1,16 @@
-# TicTacToe
+# Tic Tac Toe
+Remember Tic Tac Toe? 
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/tic_tac_toe`. To experiment with that code, run `bin/console` for an interactive prompt.
+If we go to [Wikipedia](https://en.wikipedia.org/wiki/Tic-tac-toe) it says:
 
-TODO: Delete this and the text above, and describe your gem
+> Is a paper-and-pencil game for two players, X and O, who take turns marking the spaces in a 3×3 grid. The player who succeeds in placing three of their marks in a horizontal, vertical, or diagonal row wins the game. 
 
-## Installation
+It involves a couple of players, a simple board, some turns... all the conditions that make it a fun little problem to solve. Let's build it!
 
-Add this line to your application's Gemfile:
+Usually we give you some hints about how to start, what to create first, etc. But this time we want to see how far you can go on your own (Or maybe we just feel a bit lazy...).
 
-```ruby
-gem 'tic_tac_toe'
-```
+If you think you are completely lost, go to your TA and ask for some guidance. But part of the purpose of this exercise is to feel the frustration of not knowing where to start or what to do next, to acknowledge it and to learn how to live with it. This feeling will be our party friend for the rest of the Bootcamp.
 
-And then execute:
+Also, after this test, you will appreciate more our little hints, and maybe you will stop listening to them and start looking for your own path in the coding universe.
 
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install tic_tac_toe
-
-## Usage
-
-TODO: Write usage instructions here
-
-## Development
-
-After checking out the repo, run `bin/setup` to install dependencies. Then, run `bin/console` for an interactive prompt that will allow you to experiment.
-
-To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release` to create a git tag for the version, push git commits and tags, and push the `.gem` file to [rubygems.org](https://rubygems.org).
-
-## Contributing
-
-1. Fork it ( https://github.com/[my-github-username]/tic_tac_toe/fork )
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create a new Pull Request
+So let's see how your creativity muscles work.  We will be ready to evaluate the results Next Friday...

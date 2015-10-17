@@ -41,18 +41,17 @@ module TicTacToe
     def draw?
       grid_values = grid.flatten.map { |cell| cell.value }
 
-      true unless grid_values.include("")
+      true unless grid_values.include?("")
     end
 
     def winner?
       winning_positions.each do |winning_position|
         position_values = winning_position_values(winning_position)
 
-
         next if position_values.all? { |position| position.empty?}
 
+        return true if position_values.all? {|position| position == position_values[0] }
 
-        return true if position_values.all? { |position| position == self[0] }
       end
       false
     end
